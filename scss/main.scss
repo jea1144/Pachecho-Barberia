@@ -1,0 +1,228 @@
+.container-fluid {
+    font-family: 'Aclonica', sans-serif; }
+  
+  /* FONDOS */
+  #index{
+    background: url(./IMG/barbertools.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 0;
+    z-index: 0; }
+  
+  #sobrenosotros {
+    background: url(./IMG/3.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 6em;
+    z-index: 0; }
+  
+  #productos {
+    background: url("./IMG/barbertools.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+    padding-top: 9em;
+    padding-right: 0.1em; }
+  
+  #promociones .container-general {
+    background: url("./IMG/espejo.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 0;
+    z-index: 0; }
+  
+  #contacto .container-general {
+    background: url("./IMG/bolichedeamigos.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 0;
+    z-index: 0;
+    margin-top: 9em;
+    padding-right: 2em;
+    height: 100vh;  }
+    #contacto .container-general {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.6); }
+  
+  /*BOTONES */
+  .button, .button__black, .button__white {
+    width: fit-content;
+    padding: .75em 1.5em;
+    border-radius: .3em;
+    font-weight: 500;
+    font-size: 1rem; }
+  
+  .button__black {
+    background-color: black;
+    border: solid 2px white;
+    color: white; }
+    .button__black:hover {
+      background-color: gray;
+      text-decoration: none;
+      font-weight: 800;
+      color: white; }
+  
+  .button__white {
+    background-color: white;
+    border: solid 2px black;
+    color: black; }
+    .button__white:hover {
+      background-color: silver;
+      text-decoration: none;
+      font-weight: 800;
+      color: black; }
+  
+  /* HEADER */
+  header {
+    text-transform: uppercase; }
+    header img {
+      top: 0;
+      width: 10em; }
+    header li {
+      display: inline-block;
+      width: fit-content;
+      padding-left: 2em;
+      position: relative;
+      font-size: 12px; }
+    header .navbar {
+      background-color: black; }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    letter-spacing: 0.3em;
+    color: white; }
+  
+  /*FOOTERS*/
+  footer {
+    text-transform: uppercase; }
+    footer .footer__box {
+      background-color: black; }
+      footer .footer__box h3 {
+        text-align: center;
+        color: whitesmoke;
+        font-size: 1em;
+        padding-bottom: 0.8em; }
+      footer .footer__box .footer__box--map ul {
+        padding-left: 0;
+        text-align: center; }
+        footer .footer__box .footer__box--map ul li {
+          display: block;
+          padding-left: 0; }
+          footer .footer__box .footer__box--map ul li a {
+            color: whitesmoke;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            font-size: .6em; }
+            footer .footer__box .footer__box--map ul li a:hover {
+              color: #cac4b1;
+              text-decoration: none; }
+      footer .footer__box .footer__box--social {
+        text-align: center; }
+        footer .footer__box .footer__box--social .iconify {
+          width: 50px;
+          height: 50px;
+          color: whitesmoke;
+          margin: 1em;
+          text-align: center; }
+          footer .footer__box .footer__box--social .iconify:hover {
+            color: #cac4b1;
+            text-decoration: none; }
+  
+  /* ESTILO INTERESTING */
+  .interesting {
+    height: 80vh;
+    background: url("./IMG/maderaa.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 0;
+    z-index: 0; }
+  
+    .interesting .interesting_title {
+      height: 400px;
+      position: absolute;
+      top: 30%;
+      right: 10%;
+      text-align: left;
+      margin: auto; }
+      .interesting .interesting_title h1 {
+        color: white;
+        font-weight: 500;
+        font-size: 5vw;
+        margin-bottom: 20px; }
+      .interesting .interesting_title p {
+        color: white;
+        font-weight: 300;
+        font-size: 2vw; }
+      .interesting .interesting_title a {
+        margin-bottom: 1em; }
+  
+  /* ESTILO INDEX */
+  .container-carousel {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10% 5%; }
+  
+  #index .card {
+    border-radius: 0.5%;
+    color: white;
+    background-color: black;
+    text-align: center; }
+    #index .card .card-title {
+      text-transform: uppercase; }
+    #index .card .carta__titulo, #index .card .carta__titulo--fina {
+      color: whitesmoke; }
+    #index .card .carta__titulo--fina {
+      font-weight: 80; }
+  
+  #index_button {
+    height: 40vh;
+    position: relative;
+    align-items: center;
+    text-align: center; }
+  
+  /* ESTILO SOBRE NOSOTROS */
+  .card_one {
+    color: white;
+    background-color: black;
+    border: 1px solid white; }
+    .card_one .card-header {
+      font-size: 10px; }
+    .card_one .card-title {
+      text-transform: uppercase; }
+  
+  /* ESTILO PRODUCTOS */
+  #productos .card {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+    min-width: 13em;
+    padding-bottom: 3em; }
+  
+  /* ESTILO BENEFICIOS */
+  .card_promo1 {
+    margin-top: 8em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.089);
+    border: 1px solid white; }
+    .card_promo1 .card-text {
+      margin-bottom: 1.5em; }
+  
+  .card_promo2 {
+    color: white;
+    background-color: black;
+    padding: .5em; }
+  
+  /* ESTILO CONTACTO */
+  #contacto form, #contacto .info {
+    margin: 2em 2em 2em 2em;
+    margin-top: 2em;
+    padding: 5%;
+    border: 2px solid white;
+    border-radius: 1%;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.089); }
