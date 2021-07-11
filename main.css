@@ -1,9 +1,9 @@
 .container-fluid {
   font-family: 'Aclonica', sans-serif; }
 
-/* FONDOS */
+/* Fondos */
 #index {
-  background: url(./IMG/barbertools.jpg) no-repeat center/cover;
+  background: url(./img/barbertools.jpg) no-repeat center/cover;
   background-attachment: fixed;
   position: relative;
   margin-top: 0;
@@ -17,7 +17,7 @@
   z-index: 0; }
 
 #productos {
-  background: url("./IMG/barbertools.jpg") no-repeat center/cover;
+  background: url("./img/barbertools.jpg") no-repeat center/cover;
   background-attachment: fixed;
   position: relative;
   z-index: 0;
@@ -50,7 +50,7 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.6); }
 
-/*BOTONES */
+/*Botones */
 .button, .button__black, .button__white {
   width: fit-content;
   padding: .75em 1.5em;
@@ -80,7 +80,7 @@
   font-weight: 800;
   color: black; }
 
-/* HEADER */
+/* Cabecera */
 header {
   text-transform: uppercase; }
 
@@ -102,7 +102,7 @@ header .navbar {
   letter-spacing: 0.3em;
   color: white; }
 
-/*FOOTERS*/
+/*Pies*/
 footer {
   text-transform: uppercase; }
 
@@ -147,10 +147,10 @@ footer .footer__box .footer__box--social .iconify:hover {
   color: #cac4b1;
   text-decoration: none; }
 
-/* ESTILO INTERESTING */
+/* Estilo INTERESTING */
 .interesting {
   height: 80vh;
-  background: url("./IMG/maderaa.jpg") no-repeat center/cover;
+  background: url("./img/maderaa.jpg") no-repeat center/cover;
   background-attachment: fixed;
   position: relative;
   margin-top: 0;
@@ -178,7 +178,7 @@ footer .footer__box .footer__box--social .iconify:hover {
 .interesting .interesting_title a {
   margin-bottom: 1em; }
 
-/* ESTILO INDEX */
+/* Estilo INDEX */
 .container-carousel {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 10% 5%; }
@@ -204,7 +204,7 @@ footer .footer__box .footer__box--social .iconify:hover {
   align-items: center;
   text-align: center; }
 
-/* ESTILO SOBRE NOSOTROS */
+/* Estilo SOBRE NOSOTROS */
 .card_one {
   color: white;
   background-color: black;
@@ -216,7 +216,7 @@ footer .footer__box .footer__box--social .iconify:hover {
 .card_one .card-title {
   text-transform: uppercase; }
 
-/* ESTILO PRODUCTOS */
+/* Estilo PRODUCTOS */
 #productos .card {
   text-align: center;
   background-color: transparent;
@@ -225,7 +225,7 @@ footer .footer__box .footer__box--social .iconify:hover {
   min-width: 13em;
   padding-bottom: 3em; }
 
-/* ESTILO BENEFICIOS */
+/* Estilo BENEFICIOS */
 .card_promo1 {
   margin-top: 8em;
   text-align: center;
@@ -241,7 +241,7 @@ footer .footer__box .footer__box--social .iconify:hover {
   background-color: black;
   padding: .5em; }
 
-/* ESTILO CONTACTO */
+/* Estilo CONTACTO */
 #contacto form, #contacto .info {
   margin: 2em 2em 2em 2em;
   margin-top: 2em;
