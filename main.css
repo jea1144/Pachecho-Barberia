@@ -10,7 +10,7 @@
   z-index: 0; }
 
 #sobrenosotros {
-  background: url(./IMG/3.jpg) no-repeat center/cover;
+  background: url(./img/Optimized-3.jpg) no-repeat center/cover;
   background-attachment: fixed;
   position: relative;
   margin-top: 6em;
@@ -25,14 +25,14 @@
   padding-right: 0.1em; }
 
 #promociones .container-general {
-  background: url("./IMG/espejo.jpg") no-repeat center/cover;
+  background: url("./img/Optimized-espejo.jpg") no-repeat center/cover;
   background-attachment: fixed;
   position: relative;
   margin-top: 0;
   z-index: 0; }
 
 #contacto .container-general {
-  background: url("./IMG/bolichedeamigos.jpg") no-repeat center/cover;
+  background: url("./img/Optimized-bolichedeamigos.jpg") no-repeat center/cover;
   background-attachment: fixed;
   position: relative;
   margin-top: 0;
